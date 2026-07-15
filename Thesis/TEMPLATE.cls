@@ -5,6 +5,7 @@
 \LoadClass[12pt, a4paper, oneside]{report}
 \usepackage{fontspec}
 \usepackage[top=4cm, left=4cm, bottom=3cm, right=3cm]{geometry}
+\usepackage{url}
 \usepackage[pdfauthor={Qoqokoi}, bookmarksnumbered, pdfborder={0 0 0}]{hyperref}
 
 %===================== CHAPTER & SECTION CONFIGURATION ===============
@@ -71,7 +72,13 @@
 \usepackage{indentfirst}
 \usepackage{lipsum}
 \usepackage{xstring}
-
+% =================== LANGUAGE & FONTS CONFIG ===================
+\usepackage{polyglossia}
+\setmainlanguage{indonesian}
+\setotherlanguage{english}
+\setotherlanguage{arabic}
+\setmainfont{Times New Roman}
+\newfontfamily\arabicfont[Script=Arabic, Scale=1.2]{Amiri}
 %==================== ENUMERATE ====================
 \usepackage{enumitem}
 
