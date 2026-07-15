@@ -32,3 +32,7 @@
 # Abaikan PDF karena ukurannya besar dan selalu berubah setiap compile.
 # Hapus baris di bawah ini JIKA Anda memang ingin menyimpan riwayat PDF di Git.
 main.pdf
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
